@@ -1,0 +1,48 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-image: url("https://res.cloudinary.com/dfaxzahb0/image/upload/v1673919827/Invitaciones/floral_ribx8p.jpg");
+  background-repeat: no-repeat;
+  background-position: center center ;
+  background-size:cover;
+  padding-bottom: 20px;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  font-size: larger;
+}
+
+p{
+  margin: 0;
+}
+
+h3{
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  margin: 0;
+}
+
+h2{
+  font-size: 60px;
+  font-family: 'Dancing Script', cursive;
+}
+
+@media (max-width: 370px) {
+  h3{
+  font-size: 20px;
+  }
+
+  h2{
+    font-size: 40px;
+  }
+
+  p{
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,76 @@
+.Contador{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.element{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+  align-content: center;
+  width: 100px;
+}
+
+.end{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top:15px;
+}
+
+.mensaje{
+  margin: 0;
+}
+
+.num{
+  font-size: 50px;
+  margin: 0;
+}
+
+.text{
+  font-size: 30px;
+  margin: 0;
+}
+
+.puntos{
+  font-size: 50px;
+  margin: 0;  
+}
+
+@media (max-width: 450px) {
+  .num{
+    font-size: 35px;
+  }
+  .text{
+    font-size: 25px;
+  }
+  .puntos{
+    font-size: 20px;
+  }
+  .element{
+    width: 80px;
+  }
+}
+
+@media (max-width: 370px) {
+  .num{
+    font-size: 30px;
+  }
+
+  .text{
+    font-size: 20px;
+  }
+  .puntos{
+    font-size: 15px;
+  }
+
+  .element{
+    width: 70px;
+  }
+}
