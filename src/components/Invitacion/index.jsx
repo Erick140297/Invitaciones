@@ -7,7 +7,7 @@ const Invitación = () => {
       <h2 className={s.frase}>Invitación: </h2>
     
       <div className={s.text}>
-      <h3 >En este día tan especial para nosotros nos gustaría que compartas nuestra felicidad asistiendo a nuestra boda.</h3>
+      <h3 >Hay momentos en la vida que son muy especiales por si solos pero al compartirlos con personas tan especiales como tu, se convierten en momentos imposibles de olvidar. <br /> ¡Te esperamos en nuetra boda!</h3>
       </div>
     </div>
   );
