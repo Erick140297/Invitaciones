@@ -1,15 +1,15 @@
 import React from "react";
 import s from "./Invitacion.module.css";
 
-const Invitación = ({invitados}) => {
+const Invitación = () => {
   return (
     <div className={s.container}>
-      <h3>Invitación válida para:</h3>
-      <h2>{invitados}</h2>
-      <h3>2 pases</h3>
+      <h2 className={s.frase}>Invitación: </h2>
+    
       <div className={s.text}>
-        <p>Presentar invitación digital</p>
-        <p>para acceso al evento</p>
+      <h3>En este día tan especial para nosotros nos gustaría que compartas nuestra felicidad asistiendo a nuestra boda.</h3>
+        {/* <p>Presentar invitación digital</p>
+        <p>para acceso al evento</p> */}
       </div>
     </div>
   );
