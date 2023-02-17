@@ -11,7 +11,7 @@ const Confirmacion = () => {
         className={s.btnW}
         target="_blank"
         rel="noreferrer"
-        href="https://wa.link/ao4jb7"
+        href="https://chat.whatsapp.com/KKYHLBzs6iI8V0mEMsmmeW"
       >
         <span>Confirma por WhatsApp</span>
         <WhatsappIcon />
