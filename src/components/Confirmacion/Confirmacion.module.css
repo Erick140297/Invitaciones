@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-image: url("https://res.cloudinary.com/dfaxzahb0/image/upload/v1676610162/Invitaciones/boda_ejnw5d.webp");
+  background-image: url("https://res.cloudinary.com/dfaxzahb0/image/upload/v1673919827/Invitaciones/floral_ribx8p.jpg");
   background-repeat: no-repeat;
   background-position: center center ;
   background-size:cover;
@@ -11,8 +11,9 @@
 }
 
 .container h2{
-  color: white;
-  margin-bottom: 100px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .btnW{
@@ -27,6 +28,7 @@
   border-radius: 10px;
   text-decoration: none;
   padding: 20px;
+  margin-bottom: 60px;
 }
 
 .btnW span {
@@ -36,4 +38,37 @@
 .btnW:hover{
   background: rgb(6, 127, 30);
 
+}
+
+.recomendacion{
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.recomendacion h3{
+  font-weight: bolder;
+
+}
+
+.btnC{
+  display: flex;
+  width: 150px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: larger;
+  background: rgb(151, 35, 223);
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.btnC:hover{
+  background: rgb(82, 6, 129);
 }
