@@ -14,9 +14,18 @@ const Confirmacion = () => {
         href="https://wa.link/ao4jb7"
       >
         <span>Confirma por WhatsApp</span>
-
         <WhatsappIcon />
       </a>
+      <div>
+        <span>
+          Nos ayudaria mucho que nos recomiendes canciones para el evento.
+        </span>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://forms.gle/6yMy9UrvLUkWw7YG6"
+        >Recomendar</a>
+      </div>
     </div>
   );
 };
