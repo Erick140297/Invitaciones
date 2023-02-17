@@ -1,4 +1,5 @@
 import Carrusel from "./components/Carrusel/Carrusel";
+import Confirmacion from "./components/Confirmacion/Confirmacion";
 import Datos from "./components/Datos";
 import Invitación from "./components/Invitacion";
 import Portada from "./components/Portada";
@@ -13,6 +14,7 @@ function App() {
       <Invitación invitados={"Erick y Elena"}/>
       <Datos/>
       <Carrusel/>
+      <Confirmacion/>
     </>
   );
 }
