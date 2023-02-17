@@ -1,13 +1,28 @@
-import React from 'react'
+import React from "react";
+import styled from "styled-components";
+import { SiWhatsapp } from "react-icons/si";
+import s from "./Confirmacion.module.css";
 
 const Confirmacion = () => {
   return (
-    <div>
+    <div className={s.container}>
       <h2>Confirmación </h2>
-      <p></p>
-      <a target="_blank" rel="noreferrer" href="https://wa.link/ao4jb7">Confirma por WhatsApp</a>
-    </div>
-  )
-}
+      <a
+        className={s.btnW}
+        target="_blank"
+        rel="noreferrer"
+        href="https://wa.link/ao4jb7"
+      >
+        <span>Confirma por WhatsApp</span>
 
-export default Confirmacion
+        <WhatsappIcon />
+      </a>
+    </div>
+  );
+};
+
+export default Confirmacion;
+
+const WhatsappIcon = styled(SiWhatsapp)`
+  color: white;
+`;
