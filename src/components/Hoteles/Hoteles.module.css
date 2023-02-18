@@ -3,7 +3,7 @@
   flex-flow: column;
   justify-content: center;
   text-align: center;
-  background-color: rgb(246, 200, 231);
+  background-color: rgb(243, 217, 243);
   padding-bottom: 40px;
 }
 
@@ -15,7 +15,7 @@
   justify-content: center;
   color: black;
   font-size: larger;
-  background: rgb(175, 243, 238);
+  background: rgb(212, 228, 232);
   border-radius: 10px;
   text-decoration: none;
   border: 2px solid black;

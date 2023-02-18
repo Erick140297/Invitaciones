@@ -9,6 +9,7 @@ import Padres from "./components/Padres/Padres";
 import Portada from "./components/Portada";
 import Itinerario from "./components/Itinerario/index";
 import Canciones from "./components/Canciones/Canciones";
+import { Fin } from "./components/Fin/Fin";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <Itinerario/>
       <Confirmacion/>
       <Canciones/>
+      <Fin/>
     </>
   );
 }
