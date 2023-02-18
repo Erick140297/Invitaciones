@@ -5,11 +5,11 @@ const Historia = () => {
   return (
     <div className={s.container}>
       <h2>Nuestra Historia</h2>
-      <p>
+      <h3>
         "En nuestras charlas, miradas y besos nos dimos cuenta de que habíamos
         encontrado algo especial. Este tiempo compartido ha sido hermoso, y es
         apenas el principio de un nuevo viaje lleno de emociones"
-      </p>
+      </h3>
       <div className={s.fotos}>
         <img className={s.foto}
           src="https://res.cloudinary.com/dfaxzahb0/image/upload/v1676601148/Fotos%20Lili/20_la9qy7.jpg"

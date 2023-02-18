@@ -54,4 +54,11 @@ img {
   .container2 {
     flex-direction: column;
   }
+
+  .titulo{
+    font-size: large;
+    }
+    .text{
+      font-size: small;
+    }
 }
