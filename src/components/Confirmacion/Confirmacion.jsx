@@ -6,7 +6,7 @@ import s from "./Confirmacion.module.css";
 const Confirmacion = () => {
   return (
     <div className={s.container}>
-      <h2>Confirmacia tu asistencia</h2>
+      <h2>Confirma tu asistencia</h2>
       <a
         className={s.btnW}
         target="_blank"
