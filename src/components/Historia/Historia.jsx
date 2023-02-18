@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./Historia.module.css";
 
-export const Historia = () => {
+const Historia = () => {
   return (
     <div className={s.container}>
       <h2>Nuestra Historia</h2>
@@ -27,3 +27,5 @@ export const Historia = () => {
     </div>
   );
 };
+
+export default  Historia
