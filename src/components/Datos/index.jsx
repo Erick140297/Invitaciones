@@ -2,7 +2,6 @@ import React from "react";
 import s from "./Datos.module.css";
 import Ceremonia from "../Ceremonia";
 import Recepcion from "../Recepcion";
-import Itinerario from "../Itinerario";
 
 const Datos = () => {
   return (
@@ -11,7 +10,6 @@ const Datos = () => {
       <div className={s.componentes}>
         <Ceremonia />
         <Recepcion />
-        <Itinerario/>
       </div>
     </div>
   );
