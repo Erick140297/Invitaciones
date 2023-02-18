@@ -35,3 +35,11 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+@media (max-width: 370px) {
+  .btn{
+    width: 100px;
+    height: 25px;
+    font-size: small;
+  }
+}
