@@ -1,0 +1,11 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(246, 200, 231);
+  text-align: center;
+}
+
+.container img{
+  width: 80%;
+}
