@@ -9,6 +9,9 @@
 
 .container p {
   width: 60%;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  margin: 0;
 }
 
 .fotos {
