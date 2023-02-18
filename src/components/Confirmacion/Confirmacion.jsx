@@ -16,16 +16,12 @@ const Confirmacion = () => {
         <span>Confirma por WhatsApp</span>
         <WhatsappIcon />
       </a>
-      <div className={s.recomendacion}>
-        <h3>
-          Recomiendanos canciones para el evento.
-        </h3>
-        <a className={s.btnC}
-          target="_blank"
-          rel="noreferrer"
-          href="https://forms.gle/6yMy9UrvLUkWw7YG6"
-        >Recomendar</a>
-      </div>
+      <p className={s.nota}>
+        NOTA: Sí te encuentras en la CDMX y no tienes opción de transporte,
+        infórmanos en el mismo link de confirmación de asistencia para
+        contemplarte en un transporte que te llevará al lugar del evento y te
+        traerá de vuelta a la CDMX.
+      </p>
     </div>
   );
 };

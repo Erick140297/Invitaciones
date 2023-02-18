@@ -8,6 +8,7 @@ import Novios from "./components/Novios/Novios";
 import Padres from "./components/Padres/Padres";
 import Portada from "./components/Portada";
 import Itinerario from "./components/Itinerario/index";
+import Canciones from "./components/Canciones/Canciones";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Hoteles/>
       <Itinerario/>
       <Confirmacion/>
+      <Canciones/>
     </>
   );
 }
