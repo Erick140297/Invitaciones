@@ -47,10 +47,11 @@
 }
 
 .nota{
-  width: 60%;
+  width: 80%;
   text-align:justify;
   font-family: 'Playfair Display', serif;
   font-size: x-large;
+  color: black;
 }
 
 @media (max-width: 370px) {
