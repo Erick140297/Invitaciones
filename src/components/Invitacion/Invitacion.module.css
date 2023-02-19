@@ -33,11 +33,11 @@ h3{
 }
 
 h2{
-  font-size: 60px;
+  font-size: 40px;
   font-family: 'Dancing Script', cursive;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 400px) {
   h3{
   font-size: 18px;
   }
