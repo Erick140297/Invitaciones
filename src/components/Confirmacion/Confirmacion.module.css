@@ -1,12 +1,23 @@
 .container{
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-image: url("https://res.cloudinary.com/dfaxzahb0/image/upload/v1673919827/Invitaciones/floral_ribx8p.jpg");
+  background-repeat: no-repeat;
+  background-position: center center ;
+  background-size:cover;
+  padding-bottom: 40px;
+}
+/* .container{
+  display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-color: rgb(243, 217, 243);
   padding-bottom: 40px;
-}
+} */
 
 .container h2{
   color: rgb(0, 0, 0);

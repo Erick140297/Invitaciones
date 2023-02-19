@@ -1,11 +1,24 @@
 .container{
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-image: url("https://res.cloudinary.com/dfaxzahb0/image/upload/v1673919827/Invitaciones/floral_ribx8p.jpg");
+  background-repeat: no-repeat;
+  background-position: center center ;
+  background-size:cover;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+/* .container{
+  display: flex;
   flex-flow: column;
   justify-content: center;
   text-align: center;
   background-color: rgb(243, 217, 243);
   padding-bottom: 40px;
-}
+} */
 
 .btn{
   display: flex;
@@ -14,7 +27,7 @@
   align-items: center;
   justify-content: center;
   color: black;
-  font-size: larger;
+  font-size:large;
   background: rgb(212, 228, 232);
   border-radius: 10px;
   text-decoration: none;
@@ -36,7 +49,7 @@
   flex-wrap: wrap;
 }
 
-@media (max-width: 370px) {
+@media (max-width: 400px) {
   .btn{
     width: 100px;
     height: 25px;
