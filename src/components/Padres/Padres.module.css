@@ -21,10 +21,10 @@
 
 
 .card {
-  background-color: rgb(212, 228, 232);
+  /* background-color: rgb(212, 228, 232); */
   margin: 20px;
   border-radius: 10px;
-  border: 2px solid goldenrod;
+  /* border: 2px solid goldenrod; */
   text-align: center;
   padding-bottom: 8px;
   width: 200px;
