@@ -50,5 +50,11 @@
   width: 60%;
   text-align:justify;
   font-family: 'Playfair Display', serif;
-  font-size: small;
+  font-size: x-large;
+}
+
+@media (max-width: 370px) {
+  .nota {
+    font-size: small;
+  }
 }
