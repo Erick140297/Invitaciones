@@ -13,7 +13,7 @@ const Portada = () => {
       </div>
       <Countdown />
       <br />
-      <ReactAudioPlayer src="https://res.cloudinary.com/dfaxzahb0/video/upload/v1676846653/audio/Nick_Cave_The_Bad_Seeds_-_Into_My_Arms_Official_Video_abrq9w.mp4" autoPlay controls />
+      <ReactAudioPlayer src="https://res.cloudinary.com/dfaxzahb0/video/upload/v1676850798/audio/Yellow_-_Coldplay_Lyrics_ejyr9s.mp4" autoPlay controls />
       <br />
     </div>
   );
