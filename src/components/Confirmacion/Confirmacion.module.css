@@ -54,7 +54,7 @@
   color: black;
 }
 
-@media (max-width: 370px) {
+@media (max-width: 390px) {
   .nota {
     font-size: small;
   }
