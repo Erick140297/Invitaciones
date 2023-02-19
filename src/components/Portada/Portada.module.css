@@ -29,7 +29,7 @@ h2{
   font-family: 'Dancing Script', cursive;
 }
 
-@media (max-width: 370px) {
+@media (max-width: 390px) {
   h3{
   font-size: 18px;
   }
