@@ -11,7 +11,9 @@ const Padres = () => {
 
   return (
     <div className={s.container}>
-      <h2>Nuestros Padres:</h2>
+      <h2>
+        <b>Nuestros Padres y Padrinos:</b>
+      </h2>
       <div className={s.cards}>
         <Card
           imagen={papasLiliana}

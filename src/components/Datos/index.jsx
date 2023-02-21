@@ -6,7 +6,9 @@ import Recepcion from "../Recepcion";
 const Datos = () => {
   return (
     <div className={s.container}>
-      <h2 className={s.frase}>¿Dónde será?</h2>
+      <h2 className={s.frase}>
+        <b>¿Dónde será?</b>
+      </h2>
       <div className={s.componentes}>
         <Ceremonia />
         <Recepcion />

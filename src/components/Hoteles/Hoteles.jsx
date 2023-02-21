@@ -4,7 +4,9 @@ import s from "./Hoteles.module.css";
 const Hoteles = () => {
   return (
     <div className={s.container}>
-      <h2>Opciones de Hoteles</h2>
+      <h2>
+        <b>Opciones de Hoteles</b>
+      </h2>
       <div>
         <h3>En Acambay</h3>
         <div className={s.hoteles}>

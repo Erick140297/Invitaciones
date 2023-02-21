@@ -8,12 +8,18 @@ const Portada = () => {
     <div className={s.container}>
       <div className={s.text}>
         <h3>Nuestra boda</h3>
-        <h2>Liliana y Noel</h2>
+        <h2>
+          <b>Liliana y Noel</b>
+        </h2>
         <h3>Sábado 22 de abril de 2023</h3>
       </div>
       <Countdown />
       <br />
-      <ReactAudioPlayer src="https://res.cloudinary.com/dfaxzahb0/video/upload/v1676850798/audio/Yellow_-_Coldplay_Lyrics_ejyr9s.mp4" autoPlay controls />
+      <ReactAudioPlayer
+        src="https://res.cloudinary.com/dfaxzahb0/video/upload/v1676850798/audio/Yellow_-_Coldplay_Lyrics_ejyr9s.mp4"
+        autoPlay
+        controls
+      />
       <br />
     </div>
   );
