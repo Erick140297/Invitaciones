@@ -4,10 +4,12 @@ import s from "./Padres.module.css";
 
 const Padres = () => {
   const papasLiliana =
-    "https://res.cloudinary.com/dfaxzahb0/image/upload/v1676765033/Fotos%20Lili/papasLiliana_orv3jr.jpg";
+    "https://res.cloudinary.com/dfaxzahb0/image/upload/v1676951262/Invitaciones/papaslili_eno8ps.jpg";
 
   const papasNoel =
     "https://res.cloudinary.com/dfaxzahb0/image/upload/v1676765033/Fotos%20Lili/papasNoe_iqxewc.jpg";
+
+  const padrinos = "https://res.cloudinary.com/dfaxzahb0/image/upload/v1676951139/Invitaciones/padrinos_ealwwi.jpg"
 
   return (
     <div className={s.container}>
@@ -28,7 +30,7 @@ const Padres = () => {
           titulo={"Papás del novio"}
         />
         <Card
-          imagen={"padrinos"}
+          imagen={padrinos}
           mujer={"Isaura Escudero"}
           hombre={"David Contreras"}
           titulo={"Padrinos"}
