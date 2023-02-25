@@ -5,7 +5,7 @@ const Itinerario = () => {
   return (
     <div className={s.container}>
       <h2>
-        <b>Itinerario</b>
+        <b>Itinerario </b>
       </h2>
       <h3>13:00 horas: Misa religiosa</h3>
       <h3>16:00 horas: Recepción</h3>
