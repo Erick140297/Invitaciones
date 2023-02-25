@@ -11,7 +11,7 @@ const Recepcion = () => {
           alt=""
         />
         <p className={s.text}>
-          La fiesta será el sábado 22 de abril del 2023 los esperamos a las 16
+          La fiesta será el sábado 22 de abril del 2023 los esperamos a las 16:00
           horas en el salón Quinta La Esperanza, ubicada en Temascalcingo, Edo.
           Méx.
         </p>
