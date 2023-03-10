@@ -9,7 +9,7 @@ const Confirmacion = () => {
       <h2>
         <b>Confirma tu asistencia</b>
       </h2>
-      <h3>Por favor confirma antes del 10 de marzo, para contemplarte.</h3>
+      <h3>Por favor confirma antes del 15 de abril, para contemplarte.</h3>
       <br />
       <a
         className={s.btnW}
